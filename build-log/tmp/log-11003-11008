@@ -1,0 +1,4 @@
+*** Fat Binary Generation.
+#+begin_src sh
+  /usr/bin/lipo -create "./build/iPhoneOS-14.0-Development/objs/Users/bengovero/Downloads/ivar_dealloc/app/app_delegate.rb.arm64.o" -output "./build/iPhoneOS-14.0-Development/objs/Users/bengovero/Downloads/ivar_dealloc/app/app_delegate.rb.o"
+#+end_src
